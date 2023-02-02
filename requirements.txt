@@ -1,0 +1,4 @@
+boto3==1.26.62
+openai==0.26.4
+selenium==4.8.0
+python-dotenv==0.21.1
