@@ -1,7 +1,7 @@
 import openai
 import random
 import time
-from sqs_sender import SQSSender
+from sqs_wrapper import SQSWrapper
 from env_config import (
     QUEUE_NAME,
     OPENAI_API_KEY
@@ -64,7 +64,7 @@ def sleep_minutes(minutes):
 
 def main():
     
-    sqs = SQSSender(QUEUE_NAME)
+    sqs = SQSWrapper(QUEUE_NAME)
     while True:
         random_minute = random.randint(5,10)
         job(sqs)

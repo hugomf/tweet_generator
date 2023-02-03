@@ -1,6 +1,6 @@
 import boto3
 
-class SQSSender:
+class SQSWrapper:
     
     def __init__(self,queueName=None,):
         self.sqs = boto3.client("sqs")

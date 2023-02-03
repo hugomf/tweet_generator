@@ -4,8 +4,6 @@ import openai
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-
-#from selenium.webdriver.firefox.webdriver import FirefoxProfile
 from selenium.webdriver.firefox.options import Options
 from selenium import common
 from selenium.webdriver.common.action_chains import ActionChains

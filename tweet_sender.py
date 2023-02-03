@@ -1,4 +1,4 @@
-from sqs_sender import SQSSender
+from sqs_wrapper import SQSWrapper
 from tuit_bot import TuitBot
 import time
 from env_config import (
@@ -9,8 +9,7 @@ from env_config import (
 
 def main():
 
-
-    sqs = SQSSender(QUEUE_NAME)
+    sqs = SQSWrapper(QUEUE_NAME)
     tweeter = TuitBot(False, TWITTER_USERNAME, TWITTER_PASSWORD)
     tweeter.login()
 
