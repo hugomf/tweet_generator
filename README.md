@@ -1,4 +1,6 @@
-# Generate Phrases with ChatGPT3 and then scrapes twitter to send the phrase
+# Tweet Generator ![Built with Python](https://img.shields.io/badge/python-v3.7-yellow)
+
+Generate Phrases with ChatGPT3 and then scrapes twitter to send the phrase
 
 
 - Phrase Generator
