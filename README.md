@@ -9,4 +9,4 @@ Generate Phrases with ChatGPT3 and then scrapes twitter to send the phrase
   
 - Tweet Servce
   1. Polls the Phrases from the queue
-  2. Sent a tweet with the phrase
+  2. Sent tweets for each phrase
